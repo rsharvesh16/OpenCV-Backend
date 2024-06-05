@@ -1,2 +1,3 @@
 venv/
-core/strip_images
+urine_strip_detection/backend/strip_images
+urine_strip_detection/frontend/node_modules
