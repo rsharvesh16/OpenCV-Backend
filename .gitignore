@@ -1,3 +1,5 @@
 venv/
 urine_strip_detection/backend/strip_images
 urine_strip_detection/frontend/node_modules
+urine_strip_detection/backend/temp/
+
