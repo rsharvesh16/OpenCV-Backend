@@ -7,9 +7,6 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/')
-def index():
-    return render_template('index.html')
 
 def analyze_urine_strip(image_path):
     image = cv2.imread(image_path)
@@ -34,6 +31,7 @@ def analyze():
     image_path = 'temp_image.jpg'
     file.save(image_path)
     colors = analyze_urine_strip(image_path)
+    print("For Result in Json Format:")
     print(colors)
     return jsonify(colors)
 
