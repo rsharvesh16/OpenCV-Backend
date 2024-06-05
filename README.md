@@ -72,6 +72,10 @@ The Urine Strip Detection App allows users to upload images of urine strips, whi
 
    The frontend will start running on `http://localhost:3000`.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Usage
 
 1. Open your web browser and navigate to `http://localhost:3000`.
