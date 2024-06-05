@@ -2,9 +2,13 @@
 
 This project is a web application for detecting and analyzing urine strips using OpenCV and Flask for the backend, and React for the frontend.
 
+<div align="center">
+<img width="446" alt="image" src="React-App.png">
+</div>
+
 ## Introduction
 
-The Urine Strip Detection App allows users to upload images of urine strips, which are then analyzed to detect specific colors representing different health indicators. The backend uses OpenCV for image processing, and the web-interface (Frontend) is built with React to provide a user-friendly interface.
+The Urine Strip Detection App allows users to upload images of urine strips, which are then analyzed to detect specific colors representing different health indicators. The backend uses OpenCV for image processing, and the web interface (Frontend) is built with React to provide a user-friendly interface.
 
 ## Features
 
