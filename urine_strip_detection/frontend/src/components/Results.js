@@ -1,4 +1,3 @@
-// urine-strip-detection-app/frontend/src/components/Results.js
 import React from 'react';
 
 function Results({ results }) {
@@ -6,14 +5,8 @@ function Results({ results }) {
 
   return (
     <div>
-      <h2>Analysis Results</h2>
-      <ul>
-        {Object.entries(results).map(([key, value]) => (
-          <li key={key}>
-            <strong>{key}:</strong> {value.join(', ')}
-          </li>
-        ))}
-      </ul>
+      <h2>Analysis Results in JSON Format:</h2>
+      <pre>{JSON.stringify(results, null, 2)}</pre>
     </div>
   );
 }

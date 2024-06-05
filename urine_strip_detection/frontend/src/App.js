@@ -1,4 +1,3 @@
-// urine-strip-detection-app/frontend/src/App.js
 import React, { useState } from 'react';
 import ImageUpload from './components/ImageUpload';
 import Results from './components/Results';
@@ -10,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Urine Strip Detection</h1>
+        <h1>Urine Strip Detection - OpenCV - Alemeno (Sharvesh R)</h1>
       </header>
       <main>
         <ImageUpload setResults={setResults} />
